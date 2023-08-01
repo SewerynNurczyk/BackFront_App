@@ -1,0 +1,23 @@
+@import '../../../styles/settings.scss';
+
+.adsForm{
+    display: flex;
+    position: relative;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dform{
+    display: block;
+    align-items: center;
+    position: relative;
+}
+
+label {
+    display: block;
+  }
+textarea{
+    display: block;
+}

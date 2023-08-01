@@ -1,0 +1,21 @@
+@import '../../../styles/settings.scss';
+
+  .alertContainer{
+  display: flex;
+  background-color: rgb(175, 230, 130);
+  width: 200px;
+  height: 100px;
+  justify-content: center;
+
+  }
+
+  .alertDescription{
+  display: block;
+  color: rgb(22, 11, 11);
+
+  }
+
+  .alertText{
+  justify-content: center;
+  color: rgb(12, 32, 12);
+  }

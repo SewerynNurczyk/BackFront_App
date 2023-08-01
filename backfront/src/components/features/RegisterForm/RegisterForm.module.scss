@@ -1,0 +1,19 @@
+@import '../../../styles/settings.scss';
+
+.register {
+    display: flex;
+    position: relative;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+  display: block;
+}
+.dform{
+ display: block;
+ align-items: center;
+ position: relative;
+}
