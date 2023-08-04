@@ -5,8 +5,8 @@ const connectToDB = () => {
   const NODE_ENV = process.env.NODE_ENV;
   let dbUri = '';
 
-  if (NODE_ENV === 'production') 
-  dbUri = process.env.DB_URL;
+  if (NODE_ENV === 'production') dbUri = 'mongodb+srv://snurczyk99:${process.env.DB_PASS}@cluster0.fin2lpx.mongodb.net/db?retryWrites=true&w=majority';
+
   else dbUri = 'mongodb://localhost:27017/InfoBoard';
 
   mongoose.connect(dbUri, {
